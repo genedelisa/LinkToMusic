@@ -6,12 +6,8 @@
 [![GitHub release](https://img.shields.io/github/release/genedelisa/LinkToMusic.svg)](https://github.com/genedelisa/LinkToMusic/)
 [![GitHub commits](https://img.shields.io/github/commits-since/genedelisa/LinkToMusic/1.0.0.svg)
 
-[![Swift 2](https://img.shields.io/badge/swift2-compatible-4BC51D.svg?style=flat")](https://developer.apple.com/swift)
-
 [![Swift 3](https://img.shields.io/badge/swift3-compatible-4BC51D.svg?style=flat")](https://developer.apple.com/swift)
 
-[![Platforms OS X | iOS](https://img.shields.io/badge/Platforms-OS%20X%20%7C%20iOS-lightgray.svg?style=flat)](https://swift.org/)
-[![Platforms OS X](https://img.shields.io/badge/Platforms-OS%20X-lightgray.svg?style=flat)](https://swift.org/)
 [![Platforms iOS](https://img.shields.io/badge/Platforms-iOS-lightgray.svg?style=flat)](https://swift.org/)
 
 [![Sponsors](https://img.shields.io/badge/Sponsors-Rockhopper%20Technologies-orange.svg?style=flat)](http://www.rockhoppertech.com/)
@@ -19,20 +15,26 @@
 
 
 
-An example using
+An example of how to crash Apple's iOS Music app.
+
+All I'm doing is trying to open a URL retrieved via the iTunes search API.
+
+I've also tried using URLs created via Apple's Link maker and [Apple Music Toolbox] (https://tools.applemusic.com/en-us)
+
+I've tried many different parameters. The app=music param is supposed to tell iOS to open the link in Apple Music.
+
+All of these links have worked when I pasted them into a browser.
+
+This will work the first time your press the button. It will crash the second time.
+
+Sometimes the first time you press the button the link will just stay at the browse page in apple music. 
+
+
 
 
 ## Blog post for this example.
 
 [Blog post](http://www.rockhoppertech.com/blog/)
-
-
-## Bugs
-
-
-[![GitHub issues](https://img.shields.io/github/issues/genedelisa/LinkToMusic.svg)](https://github.com/genedelisa/LinkToMusic/issues)
-
-If you find one, [please add it to issues](https://github.com/genedelisa/LinkToMusic/issues)
 
 
 

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B0F845D51E3109B000E4BF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F845D41E3109B000E4BF11 /* AppDelegate.swift */; };
 		B0F845D71E3109B000E4BF11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F845D61E3109B000E4BF11 /* ViewController.swift */; };
-		B0F845DA1E3109B000E4BF11 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0F845D91E3109B000E4BF11 /* README.md */; };
 		B0F845DC1E3109B000E4BF11 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B0F845DB1E3109B000E4BF11 /* LICENSE */; };
 		B0F845DE1E3109B000E4BF11 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0F845DD1E3109B000E4BF11 /* .gitignore */; };
 		B0F845E01E3109B000E4BF11 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B0F845DF1E3109B000E4BF11 /* .travis.yml */; };
@@ -160,7 +159,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0F845DA1E3109B000E4BF11 /* README.md in Sources */,
 				B0F845D71E3109B000E4BF11 /* ViewController.swift in Sources */,
 				B0F845D51E3109B000E4BF11 /* AppDelegate.swift in Sources */,
 			);
