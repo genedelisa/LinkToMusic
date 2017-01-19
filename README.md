@@ -1,10 +1,6 @@
 #LinkToMusic
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://en.wikipedia.org/wiki/MIT_License)
-[![Build Status](https://travis-ci.org/genedelisa/LinkToMusic.svg)](https://travis-ci.org/genedelisa/LinkToMusic)
-[![GitHub tag](https://img.shields.io/github/tag/genedelisa/LinkToMusic.svg)](https://github.com/genedelisa/LinkToMusic/)
-[![GitHub release](https://img.shields.io/github/release/genedelisa/LinkToMusic.svg)](https://github.com/genedelisa/LinkToMusic/)
-[![GitHub commits](https://img.shields.io/github/commits-since/genedelisa/LinkToMusic/1.0.0.svg)
 
 [![Swift 3](https://img.shields.io/badge/swift3-compatible-4BC51D.svg?style=flat")](https://developer.apple.com/swift)
 
@@ -19,7 +15,7 @@ An example of how to crash Apple's iOS Music app.
 
 All I'm doing is trying to open a URL retrieved via the iTunes search API.
 
-I've also tried using URLs created via Apple's Link maker and [Apple Music Toolbox] (https://tools.applemusic.com/en-us)
+I've also tried using URLs created via Apple's [Link Maker] (https://linkmaker.itunes.apple.com/en-us) and [Apple Music Toolbox] (https://tools.applemusic.com/en-us)
 
 I've tried many different parameters. The app=music param is supposed to tell iOS to open the link in Apple Music.
 
