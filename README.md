@@ -13,7 +13,7 @@
 
 An example of how to crash Apple's iOS Music app.
 
-All I'm doing is trying to open a URL retrieved via the iTunes search API.
+All I'm doing is trying to open a URL retrieved via the [iTunes search API] (https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
 
 I've also tried using URLs created via Apple's [Link Maker] (https://linkmaker.itunes.apple.com/en-us) and [Apple Music Toolbox] (https://tools.applemusic.com/en-us)
 
@@ -25,6 +25,16 @@ This will work the first time your press the button. It will crash the second ti
 
 Sometimes the first time you press the button the link will just stay at the browse page in apple music. 
 
+This is really not a complicated example. I just try to open the URL via UIApplication or the new Safari Service.
+Same bad results with either.
+
+# NB
+
+It is Apple's Music app that crashes, and not this example.
+In the crash log there is this message:
+
+    Application Specific Information:
+    attempted to retain deallocated object
 
 
 
